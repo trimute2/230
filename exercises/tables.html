@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>My Interests</title>
+	<style>
+		#Left{
+			position:absolute;
+			top:84px;
+			left:8px;
+			width:500px;
+		}
+		#Right{
+			position:absolute;
+			left:508px;
+			top: 84px;
+			width:500px;
+		}
+		h1{
+			text-align:center;
+			border: 2px solid black;
+			background: lightGrey;
+			width: 1000px;
+		}
+		table{
+			border: 2px solid black;
+			width:490px;
+		}
+		th{
+			background: black;
+			color:white;
+		}
+		td{
+			padding:4px;
+			border: 1px solid black;
+		}
+		tr.tableCatagories > td{
+			background: lightGrey;
+			font-weight: bold;
+		}
+		figure.image{
+			margin-left: 0;
+			margin-right: 0;
+		}
+		figure.image > img{
+			display:block;
+			margin-left: auto;
+			margin-right: auto;
+			border:1px solid black;
+		}
+		figure.image > figcaption{
+			text-align: center;
+		}
+		footer{
+			position:absolute;
+			top:720px;
+			width:1000px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<div>
+			<h1>My Interests</h1>
+			<section id="Left">
+				<table>
+					<tr>
+						<th colspan="3">My Interests</th>
+					</tr>
+					<tr class="tableCatagories">
+						<td>School</td>
+						<td>Hobbies</td>
+						<td>Other</td>
+					</tr>
+					<tr>
+						<td>Game Design</td>
+						<td>Video Games</td>
+						<td>SCP Foundation</td>
+					</tr>
+					<tr>
+						<td>Math</td>
+						<td>Cartoons</td>
+						<td>Puzzles</td>
+					</tr>
+					<tr>
+						<td>Game Physics</td>
+						<td>Improv</td>
+						<td>Board Games</td>
+					</tr>
+				</table>
+				<p>Above is a table of my interests, below is a picture of me.</p>
+				<figure class="image">
+					<img src="../IDPhoto.jpg" alt="this is me">
+				</figure>
+			</section>
+			<section id="Right">
+				<p>My interests mainly include games and animation. While I list cartoons as a hobby im not an animator, Im not verry confident in my abillity to draw
+				so my intrest is mainly limited to watching obscure cartoons. I practiced improv throughout highschool but havent done anything related to it in a year.
+				In terms of video games over the past few years i've started to focus on character action games.</p>
+				<p>I also listed the scp foundation as an intrest, its a horror writting website that I like to read. Another intrest of mine is puzzles, I can do large 
+				jigsaw puzzles quickly. While I have an intrest in board games I don't really play them that often.</p>
+				<figure class="image">
+					<img src="W101.jpg" alt="A verry good game">
+					<figcaption>This is one of my favorite games</figcaption>
+				</figure>
+			</section>
+			<footer>This is the bottom of the document and this is a copyright symbol &copy;</footer>
+		</div>
+	</main>
+</body>
+</html>

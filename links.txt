@@ -1,0 +1,6 @@
+404
+https://people.rit.edu/~bjs2904/230/error/djfakfh
+not 404
+https://people.rit.edu/~bjs2904/230/error/
+auth
+https://people.rit.edu/~bjs2904/230/auth/
