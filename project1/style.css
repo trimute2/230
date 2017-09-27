@@ -9,6 +9,11 @@ body{
 	color:rgb(255,255,255);
 	display:block;
 }
+
+a, a:visited{
+	color: White;
+}
+
 #navcontainer{
 	height:0;
 }
@@ -16,7 +21,8 @@ body{
 #navcontainer ul{
 	padding-left: 0;
 	margin-left: 0;
-	background-color: #036;
+	/*background-color: #036;*/
+	background-color: rgb(3,11,63);
 	color: White;
 	float: left;
 	width: 100%;
@@ -29,7 +35,8 @@ body{
 
 #navcontainer ul li a{
 	padding: 0.2em 1em;
-	background-color: #036;
+	/*background-color: #036;*/
+	background-color: rgb(3,11,63);
 	color: White;
 	text-decoration: none;
 	float: left;
@@ -37,8 +44,12 @@ body{
 }
 
 #navcontainer ul li a:hover{
-	background-color: #369;
-	color: #fff;
+	background-color: rgb(49,59,119);
+	/*background-color: #369;*/
+}
+
+#navcontainer ul li a#current{
+	background-color:rgb(114,17,17);
 }
 
 #wrapper{
@@ -64,6 +75,8 @@ figure.image{
 	clear:right;
 	margin-right:2em;
 	margin-left:2em;
+	margin-top:0;
+	margin-bottom:0;
 }
 figure.image > img{
 	border: 1.5px solid black;
