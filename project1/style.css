@@ -8,6 +8,7 @@ body{
 	background-color:rgb(4,16,89);
 	color:rgb(255,255,255);
 	display:block;
+	font-family: arial, helvetica, sans-serif;
 }
 
 a, a:visited{
