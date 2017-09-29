@@ -1,13 +1,8 @@
-/*html,body,div{
-	height:100%;
-}*/
 html, body{
 	height:100%;
 }
 body{
 	margin:0;
-	/*background-color:rgb(4,16,89);
-	color:rgb(255,255,255);*/
 	background-color:rgb(4,16,89);
 	color:rgb(255,255,255);
 	display:block;
@@ -15,11 +10,16 @@ body{
 }
 
 h1{
+	/* this makes sure that the column doesnt have a gap at the top */
 	margin-top:0;
 }
 
 a, a:visited{
 	color: White;
+}
+
+a:hover{
+	color: #cccccc;
 }
 
 #navcontainer{
@@ -61,23 +61,17 @@ a, a:visited{
 }
 
 #wrapper{
-	background-color:rgb(4,16,89);
-	color:rgb(255,255,255);
-	min-height:100%;
-}
-
-#content-container{
 	background-color:rgb(0,51,76);
 	max-width: 960px;
 	margin-left:auto;
 	margin-right:auto;
 	min-height:100vh;
-	height:100%;
 }
 
 #content{
 	margin-left:1.5em;
 	margin-right:1em;
+	padding-bottom:1em;
 }
 
 figure.image{
@@ -90,4 +84,22 @@ figure.image{
 }
 figure.image > img{
 	border: 1.5px solid black;
+}
+
+@media screen and (max-width: 697px){
+	#navcontainer ul li{
+		float: none;
+	}
+	#navcontainer ul li a{
+		width: 100%;
+		text-align: center;
+		border-top: 1px solid white;
+		border-bottom: 1px solid white;
+	}
+	#navcontainer ul li:first-child a{
+		border-top: none;
+	}
+	#navcontainer ul li:last-child a{
+		border-bottom: none;
+	}
 }
