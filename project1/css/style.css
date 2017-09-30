@@ -114,9 +114,17 @@ figure.image{
 	margin-left:2em;
 	margin-top:0;
 	margin-bottom:0;
+	border: 1.5px solid black;
 }
 figure.image > img{
-	border: 1.5px solid black;
+	border-bottom: 1.5px solid black;
+}
+
+figure.image figcaption{
+	/*could not figure out how to get flex to shrink this, hard coded it because both images have the same width*/
+	width:290px;
+	padding-left:5px;
+	padding-right:5px;
 }
 
 /*seperate sections of the text with borders*/
